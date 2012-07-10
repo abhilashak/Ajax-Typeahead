@@ -7,7 +7,7 @@ Modified for the following usability problem
 ---------------------------------------------
 
 1. When a user enters a text and pressing enter key the first item from the typeahead drop down list is selecting.
-  ------ Fixed
+  ------> Fixed
 
 How to Use
 ----------
@@ -89,4 +89,5 @@ Enjoy!
 Contact
 -------
 
-pwarelis at gmail dot com
+abhilashamballur@gmail.com
+
