@@ -239,7 +239,6 @@
 				return i[0]
 			})
 			
-			items.first().addClass('active')
 			this.$menu.html(items)
 			return this
 		},
@@ -312,6 +311,13 @@
 			switch(e.keyCode) {
 				case 9: // tab
 				case 13: // enter
+					var val = this.$menu.find('.active').attr('data-value')
+					if (!val) {
+						e.preventDefault()
+						this.hide()	
+						break
+					}
+
 				case 27: // escape
 					e.preventDefault()
 					break

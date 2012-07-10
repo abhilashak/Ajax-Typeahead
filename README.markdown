@@ -3,6 +3,12 @@ Ajax Typeahead
 
 Modifications to the Bootstrap Typeahead plugin to give it ajax capabilities
 
+Modified for the following usability problem
+---------------------------------------------
+
+1. When a user enters a text and pressing enter key the first item from the typeahead drop down list is selecting.
+  ------ Fixed
+
 How to Use
 ----------
 
