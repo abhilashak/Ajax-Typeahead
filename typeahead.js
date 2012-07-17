@@ -313,7 +313,6 @@
 				case 13: // enter
 					var val = this.$menu.find('.active').attr('data-value')
 					if (!val) {
-						e.preventDefault()
 						this.hide()	
 						break
 					}
